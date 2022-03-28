@@ -1,0 +1,22 @@
+﻿@model FirstMVCApplication.Models.Provider
+@{
+    ViewBag.Title = "ContactUs";
+}
+
+<h2>ContactUs</h2>
+
+<p>This is the Vikas Upadhyay ContactUs Page</p>
+<p>Tata Consultancy Services</p>
+<br />
+@ViewBag.Message
+
+<br />
+@Model.ProviderId
+<br />
+@Model.ProviderName
+<br />
+@Model.ProviderType
+<br />
+
+@*(@ViewData["Order"] as FirstMVCApplication.Models.Provider).ProviderId
+(@ViewData["Order"] as FirstMVCApplication.Models.Provider).ProviderName*@
